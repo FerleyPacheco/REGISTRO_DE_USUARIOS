@@ -1,0 +1,121 @@
+/*STYLO BODY*/
+body {
+    background-image: url('Img/Fondobody2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body h3 {
+    text-align: center;
+    color: #f0f1f1;
+}
+
+/*STYLO DEL HEADER*/
+header {
+    background-image: url('Img/Fondoheader2.jpg');
+    color: #f8f7f7;
+    padding: 30px;
+    border-radius: 30px;
+    border: 5px solid rgb(0, 174, 255);
+
+}
+
+header h1 {
+    text-align: center;
+    font-size: 32px;
+    margin: 0;
+    color: #f9fbfc;
+}
+
+header nav a {
+    color: #fcf8f8; 
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/*STYLO FORM*/
+form {
+    background-color: #f7feff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 2px solid #0088a0;
+    border-radius: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #006b8b;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+
+/*STYLO DEL FOOTER*/
+footer {
+    background-image: url('Img/Fondofooter.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border: 5px solid rgb(69, 193, 250);
+    border-radius: 30px;
+    color: #f5f1f1;
+}
+
+footer h4 {
+    color: #f5f1f1;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: #f7f5f5;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
