@@ -7,34 +7,42 @@ body {
 
 body h3 {
     text-align: center;
-    color: #f0f1f1;
+    color: #ffffff;
+    font-size: 30px;
 }
 
 /*STYLO DEL HEADER*/
 header {
     background-image: url('Img/Fondoheader2.jpg');
     color: #f8f7f7;
-    padding: 30px;
+    padding: 5px;
     border-radius: 30px;
     border: 5px solid rgb(0, 174, 255);
-
 }
 
 header h1 {
     text-align: center;
-    font-size: 32px;
+    font-size: 40px;
     margin: 0;
     color: #f9fbfc;
 }
 
-header nav a {
-    color: #fcf8f8; 
+/*STYLO NAV*/
+header nav {
+    background-color: #005485; /* Color de fondo del menú */
+}
+header nav ul a {
+    color: #f8f8f8; 
     text-decoration: none;
     margin-right: 20px;
 }
 
-header nav a:hover {
+header nav ul a:hover {
     text-decoration: underline;
+    background-color: #d60c0c;
+}
+header nav ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
 }
 
 /*STYLO FORM*/
